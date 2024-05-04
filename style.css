@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+.main_sec{
+    background-image: url(./asstes/main_bg.jpg);
+    height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.skill_sec{
+    display: flex;
+    flex-direction: column;
+    color: blueviolet;
+    padding: 10vw 20px;
+    align-items: center;
+    height: 30vh;
+}
+
+.img_sec{
+    display: flex;
+}
+
+.img_sec div{
+    gap: 2px;
+}
+
+.img_sec img{
+    height: 200px;
+    border-radius: 5rem;
+    box-shadow: 2;
+}
+
+.intro_sec{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    color: blueviolet;
+}
+
+.con_sec{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    color: blueviolet;
+}
+
+.ftr{
+    padding: 5vh 0;
+    gap: 30px;
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.614);
+    color: blueviolet;
+}
+
+.ftr .links{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.ftr span{
+    color: wheat;
+}
+
+.ftr a{
+    text-decoration: none;
+    color: blueviolet;
+}
